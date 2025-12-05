@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bass Fretboard Memorization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Bass Fretboard Memorization</h1>
+        <button id="startBtn">Start Training</button>
+        <div id="prompt" style="display:none;">
+            <p id="notePrompt"></p>
+            <p id="timer">5</p>
+        </div>
+        <div id="feedback"></div>
+    </div>
+    <script src="https://unpkg.com/pitchy@4.0.0/dist/pitchy.js"></script>
+    <script src="note-data.js"></script>
+    <script src="pitch-detection.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
